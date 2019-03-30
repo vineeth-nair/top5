@@ -1,0 +1,117 @@
+body{
+   background-image: url("https://images.pexels.com/photos/858076/pexels-photo-858076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+   filter: blur(0px);
+   -webkit-filter: blur(0px);
+ 
+   /* Full height */
+   height: 100%; 
+ 
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+}
+
+#main{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 50px;
+
+}
+
+
+#first{
+  
+  background: brown(0, 0, 0); /* Fallback color */
+  background: rgba(82, 19, 19, 0.5); /* Black background with 0.5 opacity */
+  height: 700px;
+  width:600px;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+  float: left;
+  border-radius: 10px;
+}
+
+
+#second
+{
+
+  background: brown(0, 0, 0); /* Fallback color */
+  background: rgba(82, 19, 19, 0.5); /* Black background with 0.5 opacity */  
+  height:700px;
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+  float: right;
+  border-radius: 10px;
+}
+
+
+#third
+{
+
+  background: brown(0, 0, 0); /* Fallback color */
+  background: rgba(82, 19, 19, 0.5); /* Black background with 0.5 opacity */  
+  height:700px;
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+  float: left;
+  border-radius: 10px;
+  column-gap: 10px;
+}
+
+#four
+{
+
+  background: brown(0, 0, 0); /* Fallback color */
+  background: rgba(82, 19, 19, 0.5); /* Black background with 0.5 opacity */  
+  height:700px;
+  width: 600px;
+  margin: auto;
+  overflow: hidden;
+  padding: 15px;
+  float: right;
+  border-radius: 10px;
+}
+
+
+.header{
+        color: rgb(255, 196, 0);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         font-style: normal;
+        font-size: 100px;
+        text-align: left;
+        max-width: 1000px;
+        
+}
+
+.name
+{
+    color: black;
+    font-weight: bolder;
+}
+.date
+{
+    color:black;
+    font-weight: bolder;
+}
+
+.movie
+{
+    color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-size: 40px;
+     
+}
+.description{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
